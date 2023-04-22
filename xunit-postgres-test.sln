@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Tests", "2-Tests", "{932A48E8-AA22-488C-A550-A3A560EE0300}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Web", "1-Web", "{5FE71A3D-241D-4C4B-AEB3-8A7305838528}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{B4FD0915-2285-46CB-98FA-BED66BC95D54}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{8FECB5A6-D9C1-40F0-A598-E8B8E2AB5312}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4FD0915-2285-46CB-98FA-BED66BC95D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4FD0915-2285-46CB-98FA-BED66BC95D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4FD0915-2285-46CB-98FA-BED66BC95D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4FD0915-2285-46CB-98FA-BED66BC95D54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FECB5A6-D9C1-40F0-A598-E8B8E2AB5312}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FECB5A6-D9C1-40F0-A598-E8B8E2AB5312}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FECB5A6-D9C1-40F0-A598-E8B8E2AB5312}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FECB5A6-D9C1-40F0-A598-E8B8E2AB5312}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4FD0915-2285-46CB-98FA-BED66BC95D54} = {5FE71A3D-241D-4C4B-AEB3-8A7305838528}
+		{8FECB5A6-D9C1-40F0-A598-E8B8E2AB5312} = {932A48E8-AA22-488C-A550-A3A560EE0300}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A3692F7-2EC0-4FA9-A3EB-68742FCB2FB0}
+	EndGlobalSection
+EndGlobal
