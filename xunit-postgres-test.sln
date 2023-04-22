@@ -7,9 +7,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2-Tests", "2-Tests", "{932A
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1-Web", "1-Web", "{5FE71A3D-241D-4C4B-AEB3-8A7305838528}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{B4FD0915-2285-46CB-98FA-BED66BC95D54}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "1-Web\WebApi\WebApi.csproj", "{B4FD0915-2285-46CB-98FA-BED66BC95D54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "Database\Database.csproj", "{8FECB5A6-D9C1-40F0-A598-E8B8E2AB5312}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Database", "2-Test\Database\Database.csproj", "{8FECB5A6-D9C1-40F0-A598-E8B8E2AB5312}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
