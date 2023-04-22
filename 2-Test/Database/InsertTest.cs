@@ -2,7 +2,7 @@ using Xunit;
 
 namespace Database
 {
-    public class UnitTest1
+    public class InsertTest
     {
         [Fact]
         public void Test1()
